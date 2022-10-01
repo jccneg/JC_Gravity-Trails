@@ -8,6 +8,8 @@ public class EnemyMovement : MonoBehaviour
     public float xForce;
     public float xDirection;
     private Rigidbody2D enemyRigidBody;
+    public int maxiumXPosition;
+    public int minimumXPosition;
 
     // Start is called before the first frame update
     void Start()
