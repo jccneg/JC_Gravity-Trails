@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638019001145101579
-    m_Hash: 127936928
+      ticks: 638025045549081776
+    m_Hash: 160175843
   m_LockFileStatus:
     m_FilePath: C:/Users/cnelk/Documents/GitHub/JC_Gravity-Trails/JC - Gravity Trails/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638019001239296223
-    m_Hash: 4043093523
+      ticks: 638025045549081776
+    m_Hash: 3106529445
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/cnelk/Documents/GitHub/JC_Gravity-Trails/JC - Gravity Trails/Packages
-m_EditorVersion: 2021.3.11f1 (0a5ca18544bf)
+m_EditorVersion: 2021.3.9f1 (ad3870b89536)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@2.8.6
   testable: 0

@@ -45,5 +45,11 @@ public class EnemyMovement : MonoBehaviour
             Vector2 jumpForce = new Vector2(xForce * xDirection, yForce);
             enemyRigidBody.AddForce(jumpForce);
         }
+
+        if (collision.gameObject.tag == "Collectable")
+        {
+            Vector2 jumpForce = new Vector2(xForce * xDirection, yForce);
+            enemyRigidBody.AddForce(jumpForce);
+        }
     }
 }
