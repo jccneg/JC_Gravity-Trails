@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 20128795}
   - component: {fileID: 20128794}
   - component: {fileID: 20128797}
-  - component: {fileID: 20128793}
+  - component: {fileID: 20128798}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Exit
@@ -143,19 +143,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &20128793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20128792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 922b228cc72e7b44395af4d2366a7635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyCount: 0
 --- !u!23 &20128794
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -247,6 +234,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &20128798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20128792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b2789c675bf18b409be7c4ac9ed2b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyCount: 0
 --- !u!1 &35639512
 GameObject:
   m_ObjectHideFlags: 0
